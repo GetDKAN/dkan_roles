@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies: {  }
+id: data_publisher
+label: 'Data Publisher'
+weight: 4
+is_admin: null
+permissions:
+  - 'access in-place editing'
+  - 'create data content'
+  - 'delete any data content'
+  - 'delete data revisions'
+  - 'delete own data content'
+  - 'edit any data content'
+  - 'edit own data content'
+  - 'revert data revisions'
+  - 'use dkan_publishing transition create_new_draft'
+  - 'use dkan_publishing transition publish'
+  - 'use editorial transition archive'
+  - 'use editorial transition archived_draft'
+  - 'use editorial transition archived_published'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'
+  - 'use text format restricted_html'
+  - 'view any unpublished content'
+  - 'view data revisions'
+  - 'view latest version'

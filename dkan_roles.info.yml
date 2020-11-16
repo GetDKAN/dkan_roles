@@ -1,0 +1,5 @@
+name: 'DKAN Roles'
+type: module
+description: 'Base roles for DKAN.'
+package: DKAN
+core_version_requirement: '^8 || ^9'

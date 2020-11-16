@@ -1,0 +1,14 @@
+uuid: 8715112a-2b66-4cb0-9675-928e830bb91b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.data_publisher
+  module:
+    - user
+id: user_remove_role_action.data_publisher
+label: 'Remove the Data Publisher role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: data_publisher

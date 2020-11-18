@@ -1,0 +1,26 @@
+{
+    "name": "getdkan/dkan_roles",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
+    "description": "Define common user roles for a DKAN install.",
+    "require": {
+        "php": "^7.2"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "authors": [
+        {
+            "name": "CivicActions",
+            "email": "contact@civicactions.com"
+        }
+    ]
+}

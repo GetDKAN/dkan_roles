@@ -1,5 +1,5 @@
 name: 'DKAN Roles'
 type: module
-description: 'Base roles for DKAN.'
+description: 'Define common user roles for a DKAN install.'
 package: DKAN
 core_version_requirement: '^8 || ^9'

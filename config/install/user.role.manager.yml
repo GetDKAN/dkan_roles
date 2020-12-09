@@ -1,8 +1,8 @@
 langcode: en
 status: true
 dependencies: {  }
-id: site_manager
-label: 'Site Manager'
+id: manager
+label: 'Manager'
 weight: 5
 is_admin: null
 permissions:

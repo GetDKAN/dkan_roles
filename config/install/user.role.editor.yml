@@ -1,8 +1,8 @@
 langcode: en
 status: true
 dependencies: {  }
-id: data_publisher
-label: 'Data Publisher'
+id: editor
+label: 'Editor'
 weight: 4
 is_admin: null
 permissions:

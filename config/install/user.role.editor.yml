@@ -2,11 +2,11 @@ langcode: en
 status: true
 dependencies: {  }
 id: editor
-label: 'Editor'
+label: Editor
 weight: 4
 is_admin: null
 permissions:
-  - 'access in-place editing'
+  - 'access user profiles'
   - 'create data content'
   - 'delete any data content'
   - 'delete data revisions'

@@ -2,12 +2,14 @@ langcode: en
 status: true
 dependencies: {  }
 id: manager
-label: 'Manager'
+label: Manager
 weight: 5
 is_admin: null
 permissions:
   - 'access content'
   - 'access content overview'
+  - 'access in-place editing'
+  - 'access user profiles'
   - 'administer menu'
   - 'administer site configuration'
   - 'administer themes'

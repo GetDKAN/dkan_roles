@@ -1,0 +1,18 @@
+_meta:
+  version: '1.0'
+  entity_type: shortcut
+  uuid: 8c053454-f82e-4750-b4c9-27b63ca6a23d
+  bundle: dkan-shortcuts
+  default_langcode: en
+default:
+  title:
+    -
+      value: Content
+  weight:
+    -
+      value: -8
+  link:
+    -
+      uri: 'internal:/admin/content/node'
+      title: ''
+      options: {  }

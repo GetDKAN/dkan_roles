@@ -1,0 +1,18 @@
+_meta:
+  version: '1.0'
+  entity_type: shortcut
+  uuid: 96f96ca4-233d-4544-84c2-fd07f2bf2f37
+  bundle: dkan-shortcuts
+  default_langcode: en
+default:
+  title:
+    -
+      value: 'Moderated content'
+  weight:
+    -
+      value: -7
+  link:
+    -
+      uri: 'internal:/admin/content/moderated'
+      title: ''
+      options: {  }

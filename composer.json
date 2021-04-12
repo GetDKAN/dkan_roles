@@ -5,6 +5,7 @@
     "minimum-stability": "dev",
     "description": "Define common user roles for a DKAN install.",
     "require": {
+        "drupal/default_content": "^2.0@alpha",
         "php": "^7.2"
     },
     "repositories": [

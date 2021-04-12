@@ -1,0 +1,18 @@
+_meta:
+  version: '1.0'
+  entity_type: shortcut
+  uuid: 886f3bf6-94f2-473b-9ccc-6ee52a81fb0c
+  bundle: dkan-shortcuts
+  default_langcode: en
+default:
+  title:
+    -
+      value: 'Create a dataset'
+  weight:
+    -
+      value: -10
+  link:
+    -
+      uri: 'internal:/node/add/data'
+      title: ''
+      options: {  }

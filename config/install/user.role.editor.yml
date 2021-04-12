@@ -6,8 +6,10 @@ label: Editor
 weight: 4
 is_admin: null
 permissions:
+  - 'access content overview'
   - 'access toolbar'
   - 'access user profiles'
+  - 'administer nodes'
   - 'cancel account'
   - 'create data content'
   - 'delete any data content'

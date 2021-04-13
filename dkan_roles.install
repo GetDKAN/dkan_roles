@@ -10,3 +10,11 @@
 function dkan_roles_update_8002(){
   \Drupal::service('module_installer')->install(['shortcut']);
 }
+
+/**
+ * Import shortcuts.
+ */
+function dkan_roles_update_8003() {
+  \Drupal::service('module_installer')->install(['default_content']);
+  \Drupal::service('default_content.importer')->importContent('dkan_roles');
+}

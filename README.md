@@ -49,5 +49,5 @@ This module provides a set of shortcuts with links to execute common DKAN
 tasks. You can import the shortcuts by running the Drush command:
 
 ```
-drush dkan_roles:shortcut
+drush dkan_roles:shortcuts
 ```

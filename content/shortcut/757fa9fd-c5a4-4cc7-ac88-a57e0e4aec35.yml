@@ -1,0 +1,18 @@
+_meta:
+  version: '1.0'
+  entity_type: shortcut
+  uuid: 757fa9fd-c5a4-4cc7-ac88-a57e0e4aec35
+  bundle: dkan-shortcuts
+  default_langcode: en
+default:
+  title:
+    -
+      value: Datasets
+  weight:
+    -
+      value: -9
+  link:
+    -
+      uri: 'internal:/admin/content/datasets'
+      title: ''
+      options: {  }

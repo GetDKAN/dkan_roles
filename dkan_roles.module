@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Hook implementations for dkan_roles.
+ */
+
+/**
+ * Implements hook_shortcut_default_set().
+ */
+function dkan_roles_shortcut_default_set($account) {
+  return 'dkan-shortcuts';
+}

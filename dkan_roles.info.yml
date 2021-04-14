@@ -3,3 +3,14 @@ type: module
 description: 'Define common user roles for a DKAN install.'
 package: DKAN
 core_version_requirement: '^8 || ^9'
+
+dependencies:
+  - shortcut
+  - default_content
+
+default_content:
+  shortcut:
+    - 886f3bf6-94f2-473b-9ccc-6ee52a81fb0c
+    - 757fa9fd-c5a4-4cc7-ac88-a57e0e4aec35
+    - 8c053454-f82e-4750-b4c9-27b63ca6a23d
+    - 96f96ca4-233d-4544-84c2-fd07f2bf2f37

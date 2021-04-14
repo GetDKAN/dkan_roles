@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Install file for dkan_roles.
+ */
+
+/**
+ * Enable shortcut and default_content modules.
+ */
+function dkan_roles_update_8002(){
+  \Drupal::service('module_installer')->install(['shortcut']);
+  \Drupal::service('module_installer')->install(['default_content']);
+}

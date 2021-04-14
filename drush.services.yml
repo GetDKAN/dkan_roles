@@ -1,0 +1,5 @@
+services:
+  dkan_roles.commands:
+    class: \Drupal\dkan_roles\Commands\DkanRolesCommands
+    tags:
+      - { name: drush.command }
